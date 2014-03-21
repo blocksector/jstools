@@ -1,4 +1,4 @@
-# Javscript Helpers
+# JS Tools
 
 My Personal Library of custom javascript methods to help me on
 certain tasks.
