@@ -1,12 +1,6 @@
 // extend date object and define the format method
 Date.prototype.toRelativeTime = function () {
     
-    // days of week long string
-    var day_of_week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-
-    // Month long string
-    var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-
     // the dates
     var from_date = this,
         current_date = new Date();
